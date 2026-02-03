@@ -1,0 +1,59 @@
+:root {
+  --color-bg: #f3f4f6;
+  --color-surface: #ffffff;
+  --color-primary: #1d4ed8;
+  --color-primary-soft: #dbeafe;
+  --color-primary-dark: #1e40af;
+  --color-accent: #f97316;
+  --color-text-main: #0f172a;
+  --color-text-muted: #6b7280;
+  --radius-lg: 1.25rem;
+  --radius-md: 0.85rem;
+  --shadow-soft: 0 18px 35px -22px rgba(15, 23, 42, 0.5);
+  --shadow-card: 0 10px 25px -20px rgba(15, 23, 42, 0.4);
+  --transition-fast: 150ms ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: radial-gradient(circle at top left, #dbeafe 0, #f9fafb 50%, #f3f4f6 100%);
+  color: var(--color-text-main);
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+/* Common utility */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: rgba(37, 99, 235, 0.08);
+  color: var(--color-primary-dark);
+}
+
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background-color: #22c55e;
+}

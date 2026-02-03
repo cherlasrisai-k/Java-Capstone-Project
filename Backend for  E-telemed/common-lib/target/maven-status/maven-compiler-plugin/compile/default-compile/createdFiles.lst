@@ -1,0 +1,17 @@
+com\telemedicine\common\dto\ErrorResponse$ErrorResponseBuilder.class
+com\telemedicine\common\config\CommonConfig$1.class
+com\telemedicine\common\exception\ResourceNotFoundException.class
+com\telemedicine\common\util\DateUtil.class
+com\telemedicine\common\util\ValidationUtil.class
+com\telemedicine\common\constant\ApiConstants.class
+com\telemedicine\common\dto\PageResponse$PageResponseBuilder.class
+com\telemedicine\common\exception\BadRequestException.class
+com\telemedicine\common\dto\ApiResponse.class
+com\telemedicine\common\dto\ErrorResponse.class
+com\telemedicine\common\exception\GlobalExceptionHandler.class
+com\telemedicine\common\exception\UnauthorizedException.class
+com\telemedicine\common\config\CommonConfig.class
+com\telemedicine\common\dto\PageResponse.class
+com\telemedicine\common\dto\ApiResponse$ApiResponseBuilder.class
+com\telemedicine\common\constant\ErrorMessages.class
+com\telemedicine\common\exception\ServiceException.class

@@ -1,0 +1,30 @@
+/* src/components/Footer.css */
+.footer {
+  margin-top: 3rem;
+  padding: 1rem 4rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #6b7280;
+  background-color: #ffffff;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #64748b;
+}
+
+.footer-links a:hover {
+  color: #111827;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    gap: 0.4rem;
+    text-align: center;
+  }
+}
